@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 # Add dependencies required to use your gem here.
-# Example:
-#   gem "activesupport", ">= 2.3.5"
+gem 'celluloid', '~> 0.17.3'
+gem 'celluloid-supervision', '~> 0.20.5'
+gem 'ai4r', '~> 1.13'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.

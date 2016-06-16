@@ -1,8 +1,12 @@
-= agens
+= Agens - Framework for Multi-Agent Systems in Ruby
 
-Description goes here.
+Agents is a framework for building Multi-Agent Systems (MAS) in Ruby. With support of COPL (Concurrency-Oriented Programming Language - thx to Celluloid) and Neurals Nets (thx to ai4r).
 
-== Contributing to agens
+We have built Agens in order to design Multi-Agent System (MAS) to drive our #Probee Open Hardware robot. We wanted to build this MAS in Ruby - our beloved language.
+
+Build with love in Prague.
+
+== Contributing to Agens
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.

@@ -17,10 +17,16 @@ Juwelier::Tasks.new do |gem|
   gem.name = "agens"
   gem.homepage = "http://github.com/Inza/agens"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Framework for Multi-Agent Systems in Ruby}
+  gem.description = %Q{Agents is a framework for building Multi-Agent Systems (MAS) in Ruby. With support of COPL (Concurrency-Oriented Programming Language - thx to Celluloid) and Neural Nets (thx to ai4r).
+
+We have built Agens in order to design Multi-Agent System (MAS) to drive our Probee Open Hardware robot. We wanted to build this MAS in Ruby.
+
+Build with love in Prague.}
   gem.email = "tomas.jukin@juicymo.cz"
   gem.authors = ["Tomas Jukin"]
+  
+  gem.files = Dir.glob('lib/**/*.rb')
 
   # dependencies defined in Gemfile
 end

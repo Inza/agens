@@ -1,0 +1,5 @@
+require 'agens/agent'
+require 'agens/mas'
+require 'agens/world'
+require 'agens/sensor'
+require 'agens/actuator'
